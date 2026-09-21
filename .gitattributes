@@ -1,0 +1,41 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/BACKINFO/key.id" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/BACKINFO/program.id" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/HOME/user.sys" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/RAPID/TASK1/SYSMOD/user.sys" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/SYSPAR/EIO.cfg" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/SYSPAR/MMC.cfg" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/SYSPAR/MOC.cfg" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/SYSPAR/PROC.cfg" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/SYSPAR/SIO.cfg" -text
+"a1-ABBPracticalTraining/Controller Data/IRB2600_12_165/SYSPAR/SYS.cfg" -text
+a1-ABBPracticalTraining/Station/Preview.png -text
+a1-ABBPracticalTraining/Station/Streams/f2252aa1faf54474a591dfad1f3a4179.BlobStream.bin -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/HOME/user.sys" -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/INTERNAL/ctrl.bin" -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/INTERNAL/image.bin" -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/INTERNAL/key.id" -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/INTERNAL/program.id" -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/Registry.db" -text
+"a1-ABBPracticalTraining/Virtual Controllers/IRB2600_12_165/netconfig.db" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/BACKINFO/key.id" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/BACKINFO/program.id" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/HOME/user.sys" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/RAPID/TASK1/SYSMOD/user.sys" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/SYSPAR/EIO.cfg" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/SYSPAR/MMC.cfg" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/SYSPAR/MOC.cfg" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/SYSPAR/PROC.cfg" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/SYSPAR/SIO.cfg" -text
+"a2-ABBPracticalTraining_1/Controller Data/IRB2600_12_165/SYSPAR/SYS.cfg" -text
+a2-ABBPracticalTraining_1/Station/Preview.png -text
+a2-ABBPracticalTraining_1/Tool_suck.rslib -text
+b-Code/Station/Preview.png -text
+b-Picture/Logo.png -text
+b-Picture/效果图.png -text
+b-Video/ABBPracticalTraining-2.exe -text
+b-Video/ABBPracticalTraining.exe -text
+b-Video/现场演示效果.mp4 -text
